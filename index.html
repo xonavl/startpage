@@ -250,6 +250,10 @@
         
         // Sterne alle 10 Sekunden wechseln
         setInterval(createRandomStars, 10000);
+
+        document.addEventListener('DOMContentLoaded', () => {
+  document.activeElement.blur();
+});
     </script>
 </body>
 </html>
